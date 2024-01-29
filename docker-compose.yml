@@ -11,15 +11,15 @@ services:
          - PUID=1000
          - PGID=1000
          - PORT=8211 # Optional but recommended
-         - PLAYERS=16 # Optional but recommended
-         - SERVER_PASSWORD="worldofpals" # Optional but recommended
+         - PLAYERS=32 # Optional but recommended
+         - SERVER_PASSWORD="0130" # Optional but recommended
          - MULTITHREADING=true
          - RCON_ENABLED=true
          - RCON_PORT=25575
          - TZ=UTC
-         - ADMIN_PASSWORD="adminPasswordHere"
+         - ADMIN_PASSWORD="7377"
          - COMMUNITY=false  # Enable this if you want your server to show up in the community servers tab, USE WITH SERVER_PASSWORD!
-         - SERVER_NAME="World of Pals"
-         - SERVER_DESCRIPTION=""
+         - SERVER_NAME="Uring Palworld"
+         - SERVER_DESCRIPTION="Uring Palworld"
       volumes:
          - ./palworld:/palworld/
